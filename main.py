@@ -29,4 +29,5 @@ def submit():
         return 'something went wrong, pls try again'
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
